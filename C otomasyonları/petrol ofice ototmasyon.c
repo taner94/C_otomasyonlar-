@@ -1,7 +1,6 @@
-#include<stdio.h>/*PROGRAM:BENZÝN ÝSTASYONU TAKÝP OTOMASYONU*/
-#include<stdlib.h> /*PROGRAMCI:MEHMET TOPCU*/
-/*BAÞLAMA=04.12.2008*/
-/*BÝTÝÞ=14.12.2008*/
+#include<stdio.h>/*PROGRAM:BENZÄ°N Ä°STASYONU TAKÄ°P OTOMASYONU*/
+#include<stdlib.h> 
+
 int main() {
 
 
@@ -46,7 +45,7 @@ int main() {
 
 		switch(numara) {
 
-			case 1:  /*akaryakýt fiyatlarý*/
+			case 1:  /*akaryakÄ±t fiyatlarÄ±*/
 
 
 				printf("\n\n---BiRiM FiYATLAR LiSTESi---\n\n");
@@ -57,7 +56,7 @@ int main() {
 				break;
 
 
-			case 2:/*FÝATLARI GÜNCELLEME*/
+			case 2:/*FÄ°ATLARI GÃœNCELLEME*/
 
 
 
@@ -125,7 +124,7 @@ int main() {
 
 
 
-			case 3:  /*akaryakýt satýþ iþlemi*/
+			case 3:  /*akaryakÄ±t satÄ±ÅŸ iÅŸlemi*/
 
 				printf("\n\n----AKARYAKiT SATiS iSLEMi---");
 				printf("\n\nAKARYAKiT TiPiNi SECiN(D-B-L)=");
@@ -240,8 +239,8 @@ int main() {
 
 
 
-				/*<<<<<FOR DÖNGÜSÜ ÝLE COK UGRAÞTIM AMA YAPAMADIM>>>>>*/
-				/*<<<<SON ÇARE BU ÞEKÝLDE YAPTIM>>>>*/
+				/*<<<<<FOR DÃ–NGÃœSÃœ Ä°LE COK UGRAÅžTIM AMA YAPAMADIM>>>>>*/
+				/*<<<<SON Ã‡ARE BU ÅžEKÄ°LDE YAPTIM>>>>*/
 			case 4:
 				if(toplamlitred<=100) {
 					printf("\n[**********]");
@@ -742,7 +741,7 @@ int main() {
 
 
 
-			case 5:/*toplam satýþlar*/
+			case 5:/*toplam satÄ±ÅŸlar*/
 
 				printf("\n------TOPLAM SATiSLAR-------\n\n");
 
@@ -758,7 +757,7 @@ int main() {
 
 
 
-			case 7:/*programý bitirme*/
+			case 7:/*programÄ± bitirme*/
 
 				printf("\n\n\n----PROGRAM SONLANDiRiLDi----\n\n");
 
